@@ -7,7 +7,7 @@ WORKDIR /backend
 # set environment variables
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
-ENV PROD 0
+ENV PROD 1
 
 # install dependencies
 

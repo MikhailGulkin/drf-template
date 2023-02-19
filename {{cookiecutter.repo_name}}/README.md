@@ -1,13 +1,13 @@
-## API Music Catalog
+## {{ cookiecutter.app_title }}
 
-API, which is being developed as part of a test task.
+{{ cookiecutter.short_description }}
 
 ### Project Deployment
 
 1.Clone repository
 
 ```
-git clone https://github.com/MihailGulkin/test-task-music-catalog.git
+git clone {{ cookiecutter.git_repo }}
 ```
 
 2.Go to the `src/core` directory and create a `.env` file similar to `.envExample` or run:

@@ -1,9 +1,8 @@
 {
-    "full_name": "Raphael Pierzina",
-    "email": "raphael@hackebrot.de",
-    "github_username": "hackebrot",
-    "app_title": "Hello World",
-    "app_class_name": "{{cookiecutter.app_title|replace(' ', '')}}App",
+    "app_title": "drf-template",
+    "docker_title": "{{ cookiecutter.app_title|upper}}",
+    "github_name": "MihailGulkin",
     "repo_name": "{{cookiecutter.app_title|replace(' ', '')|lower}}",
-    "short_description": "A sleek slideshow app that supports swipe gestures."
+    "git_repo": "https://github.com/{{cookiecutter.github_name}}/{{ cookiecutter.app_title }}.git",
+    "short_description": "API, which is being developed as part of a test task."
 }

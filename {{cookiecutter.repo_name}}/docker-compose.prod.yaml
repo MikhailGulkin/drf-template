@@ -1,7 +1,7 @@
 services:
   web-django:
     working_dir: /backend/src
-    container_name: BackendAPI
+    container_name: Backend{{cookiecutter.docker_title}}API
     restart: always
     ports:
       - 8000:8000
@@ -14,7 +14,7 @@ services:
     env_file:
       - ./src/core/.env
   postgres:
-    container_name: postgresProduction
+    container_name: postgres{{cookiecutter.docker_title}}Production
     image: postgres:latest
     restart: on-failure
     env_file:

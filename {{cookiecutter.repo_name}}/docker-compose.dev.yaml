@@ -1,6 +1,6 @@
 services:
   postgres:
-    container_name: postgresDevelopment
+    container_name: postgres{{ cookiecutter.docker_title }}Development
     image: postgres:latest
     restart: on-failure
     ports:

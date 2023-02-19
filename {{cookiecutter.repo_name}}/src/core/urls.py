@@ -1,8 +1,6 @@
 from django.contrib import admin
-from django.urls import (
-    path,
-    include
-)
+from django.urls import path
+
 from drf_spectacular.views import (
     SpectacularAPIView,
     SpectacularSwaggerView,
@@ -11,7 +9,6 @@ from drf_spectacular.views import (
 urlpatterns = [
     path('admin/', admin.site.urls),
 
-    path('', include('music.urls'))
 ]
 
 urlpatterns += [
