@@ -3,5 +3,5 @@ docker-compose.dev.yaml
 docker-compose.prod.yaml
 
 
-.gitignore
+../.gitignore
 README.md
