@@ -6,4 +6,4 @@ services:
     ports:
       - 5431:5432
     env_file:
-      - ./src/core/.env
+      - ./src/core/.dev.env
